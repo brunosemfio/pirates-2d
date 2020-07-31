@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f346e5ff2f4d04bfd898968c0bccbd, type: 3}
+  m_Name: Fleet
+  m_EditorClassIdentifier: 
+  movements:
+  - behaviour: {fileID: 11400000, guid: 3fa99adc5c25209439b981478f02a2cd, type: 2}
+    weight: 1
+  - behaviour: {fileID: 11400000, guid: 54497b8abe7dfb34d993e078f37035f2, type: 2}
+    weight: 5
+  - behaviour: {fileID: 11400000, guid: 0e6db54b0edde3a44bf6b1829fbd7a18, type: 2}
+    weight: 1
+  - behaviour: {fileID: 11400000, guid: 0d37e90860c935042a11ac099b212927, type: 2}
+    weight: 10
+  - behaviour: {fileID: 11400000, guid: 0a8ad2dad08681d42a40d92f0ff7b1e4, type: 2}
+    weight: 1
+  - behaviour: {fileID: 11400000, guid: f50804e19173f6a4a8a44e195dd78eee, type: 2}
+    weight: 2
