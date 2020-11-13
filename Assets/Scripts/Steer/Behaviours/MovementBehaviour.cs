@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Pirates.Steer.Behaviours
+namespace Steer.Behaviours
 {
     public abstract class MovementBehaviour : ScriptableObject
     {

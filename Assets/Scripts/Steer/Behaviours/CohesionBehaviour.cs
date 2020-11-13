@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using UnityEngine;
 
-namespace Pirates.Steer.Behaviours
+namespace Steer.Behaviours
 {
     [CreateAssetMenu(menuName = "Steering/Behaviour/Cohesion")]
     public class CohesionBehaviour : MovementBehaviour

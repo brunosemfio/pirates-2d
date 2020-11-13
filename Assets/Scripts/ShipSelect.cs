@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using Cinemachine;
-using Pirates.Steer;
-using Pirates.Steer.Behaviours;
+using Steer;
+using Steer.Behaviours;
 using UnityEngine;
 
 namespace Pirates

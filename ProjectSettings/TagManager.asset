@@ -3,8 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Ball
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -14,9 +13,9 @@ TagManager:
   - UI
   - 
   - 
-  - Island
-  - Ship
-  - Ball
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -39,12 +38,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Sea
-    uniqueID: 769084133
-    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Ship
-    uniqueID: 1339381725
     locked: 0

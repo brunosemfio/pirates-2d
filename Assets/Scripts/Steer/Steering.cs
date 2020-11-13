@@ -1,7 +1,7 @@
-﻿using Pirates.Steer.Behaviours;
+﻿using Steer.Behaviours;
 using UnityEngine;
 
-namespace Pirates.Steer
+namespace Steer
 {
     [RequireComponent(typeof(Rigidbody2D))]
     [RequireComponent(typeof(Agent))]

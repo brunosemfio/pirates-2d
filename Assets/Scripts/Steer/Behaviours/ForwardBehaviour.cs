@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Pirates.Steer.Behaviours
+namespace Steer.Behaviours
 {
     [CreateAssetMenu(menuName = "Steering/Behaviour/Forward")]
     public class ForwardBehaviour : MovementBehaviour

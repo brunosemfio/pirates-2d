@@ -2,7 +2,7 @@
 using System.Linq;
 using UnityEngine;
 
-namespace Pirates.Steer
+namespace Steer
 {
     public class Agent : MonoBehaviour
     {

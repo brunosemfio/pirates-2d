@@ -1,4 +1,4 @@
-﻿using Pirates.Steer.Behaviours;
+﻿using Steer.Behaviours;
 using UnityEngine;
 using UnityEngine.InputSystem;
 

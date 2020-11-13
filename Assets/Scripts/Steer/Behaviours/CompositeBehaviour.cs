@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Pirates.Steer.Behaviours
+namespace Steer.Behaviours
 {
     [CreateAssetMenu(menuName = "Steering/Behaviour/Composite")]
     public class CompositeBehaviour : MovementBehaviour
@@ -16,13 +16,13 @@ namespace Pirates.Steer.Behaviours
         {
             var direction = Vector2.zero;
 
-            foreach (var movement in movements)
+            for (var i = 0; i < movements.Length; i++)
             {
-                var partial = movement.behaviour.CalculateMovement(steering, agent) * movement.weight;
+                var partial = movements[i].behaviour.CalculateMovement(steering, agent) * movements[i].weight;
 
-                if (partial.sqrMagnitude > movement.weight * movement.weight)
+                if (partial.sqrMagnitude > movements[i].weight * movements[i].weight)
                 {
-                    partial = partial.normalized * movement.weight;
+                    partial = partial.normalized * movements[i].weight;
                 }
 
                 direction += partial;
