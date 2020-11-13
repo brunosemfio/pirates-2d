@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Player
   m_EditorClassIdentifier: 
   movements:
-  - behaviour: {fileID: 11400000, guid: f50804e19173f6a4a8a44e195dd78eee, type: 2}
+  - behaviour: {fileID: 11400000, guid: 648d285ba17570f4da0d0d08002d9570, type: 2}
     weight: 1
-  - behaviour: {fileID: 11400000, guid: 39e169614d9e31f4e8e3b2852d0c4160, type: 2}
+  - behaviour: {fileID: 11400000, guid: 4507d115c997f8f40a14c377010073c2, type: 2}
     weight: 2

@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Fleet
   m_EditorClassIdentifier: 
   movements:
-  - behaviour: {fileID: 11400000, guid: 0d37e90860c935042a11ac099b212927, type: 2}
-    weight: 10
-  - behaviour: {fileID: 11400000, guid: 54497b8abe7dfb34d993e078f37035f2, type: 2}
-    weight: 5
-  - behaviour: {fileID: 11400000, guid: 0e6db54b0edde3a44bf6b1829fbd7a18, type: 2}
-    weight: 2
   - behaviour: {fileID: 11400000, guid: 0a8ad2dad08681d42a40d92f0ff7b1e4, type: 2}
     weight: 1
-  - behaviour: {fileID: 11400000, guid: f50804e19173f6a4a8a44e195dd78eee, type: 2}
+  - behaviour: {fileID: 11400000, guid: df95ffe80066a074292067c546223be7, type: 2}
+    weight: 1
+  - behaviour: {fileID: 11400000, guid: 0e6db54b0edde3a44bf6b1829fbd7a18, type: 2}
+    weight: 1
+  - behaviour: {fileID: 11400000, guid: 0d37e90860c935042a11ac099b212927, type: 2}
+    weight: 10
+  - behaviour: {fileID: 11400000, guid: 648d285ba17570f4da0d0d08002d9570, type: 2}
     weight: 1

@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5333b39575142dcaeca82aa50803f09, type: 3}
   m_Name: Pursue
   m_EditorClassIdentifier: 
-  prediction: 1
+  prediction: 5
